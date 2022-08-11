@@ -15,7 +15,7 @@ export const ListItem = ({item, deleting, onChange}:Props) => {
          checked={item.isDone}
          onChange={e => onChange(item.id, e.target.checked)}
          /> 
-         {item.name} - {item.isDone.toString()}
+         {item.name}
          <button onClick={() => deleting(item.id)}>
         <FiTrash/>    
         </button>

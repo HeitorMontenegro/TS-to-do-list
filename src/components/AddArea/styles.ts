@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-border: 1px solid #66643C;
+border: 2px solid #B6174B;
 margin: 20px;
 padding: 15px;
 border-radius: 10px;
-background-color: #EBDB82;
+background-color: #0B1D51;
 font-size: 20px;
 
 input{

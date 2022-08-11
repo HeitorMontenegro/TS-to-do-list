@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-background-color: #F2EDCE;
+background-color: #5F9ea0;
 min-height: 100vh;
-color: #756528;
+color: #FAFAFF;
 `;
 
 export const Area = styled.div`
@@ -13,6 +13,6 @@ padding: 10px;
 export const Header = styled.h1`
 margin: 0;
 text-align: center;
-border-bottom: 1px solid #756528;
+border-bottom: 1px solid #B6174B;
 padding: 20px;
 `
